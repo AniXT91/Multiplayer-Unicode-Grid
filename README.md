@@ -2,7 +2,7 @@
 
 ## Overview
 
-The goal of this take‑home project was to build a real‑time multiplayer web
+The goal of this project was to build a real‑time multiplayer web
 application where multiple players share a single 10 × 10 grid.  Each player
 may select a cell and fill it with a Unicode character.  Once a character is
 submitted, that player is restricted from editing any further cells (an
@@ -17,7 +17,7 @@ Features included :
 * An optional “history” view that allows the grid to be rewound to previous
   states.
 
-The preferred technology stack was **React** for the front‑end and a
+The Technology stack is **React** for the front‑end and a
 **Node/Express** back‑end written in **TypeScript**. The solution uses only built‑in Node modules and
 CDN‑hosted client libraries.  The back‑end exposes a lightweight HTTP API
 and uses **Server‑Sent Events (SSE)** to push real‑time updates to clients.
